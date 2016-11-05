@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="presentor.js"></script>
+		<meta charset="utf-8">
+
+		<title>FOCUS - Quick start</title>
+
+		<meta name="description" content="Quick start for FOCUS">
+		<meta name="author" content="Asif Ali">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>
+					<h1>FOCUS</h1>
+					<p>Free Open sourCe UserS <br><small>version - 1.1</small></p>
+					<img src="img/logo.png" height="250" width="250" alt="logo">
+					<p>
+						<small><a href="https://www.facebook.com/asif.ali00000" target="blank">Asif Ali </a> / <a href="http://github.com/asifali22" target="blank">@asifali22</a></small><br>
+						<small><a href="https://www.facebook.com/adarshtrivedi75" target="blank">Adarsh Trivedi </a> / <a href="http://github.com/adarshtri" target="blank">@adarshtri</a></small><br>
+					</p>
+				</section>				
+				<section>
+					<h2>Objective</h2>
+					<p>Aim is to keep the users updated with new Open Source technologies and sessions being conducted by various GLUGs under <a href="https://www.fsmk.org" target="blank">FSMK</a></p>
+
+				</section>
+
+				<section>
+					<h2>Introduction</h2>
+					<ul>
+						<li>Android Application name FOCUS</li>
+						<li>Open Source Technologies</li>
+						<li>Sessions and workshops</li>
+						<li>Native App</li>
+						<li>Backend - simple yet powerful</li>
+						<li>No Login</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Description</h2>
+						<ol>
+							<li>Trending Feed</li>
+							<li>Session Feed</li>
+							<li>User Interaction</li>
+							<li>User Profile</li>
+							<li>Social/Custom Login</li>
+							<li>Add Posts/Sesssions</li>
+						</ol>
+					</section>
+					<section>
+						<h2>Trending Feed</h2>
+						<p>Consists of the latest posts on various yet latest technologies</p>
+					</section>
+					<section>
+						<h2>Session Feed</h2>
+						<p>Consists of the upcoming sessions and workshops that are going to be conducted in and around</p>
+					</section>
+					<section>
+						<h2>User Interaction</h2>
+						<ol>
+							<li>Trending Feed</li>
+							<ul class="fragment roll-in" >
+								<li>Like/Dislike</li>
+								<li>Discuss</li>
+								<li>Report</li>
+								<li>Share</li>
+							</ul>
+							<li>Session Feed</li>
+							<ul class="fragment roll-in">
+								<li>Discuss</li>
+								<li>Share</li>
+							</ul>
+						</ol>
+					</section>
+					<section>
+						<h2>User Profile</h2>
+						<ul>
+							<li>Name</li>
+							<li>Status</li>
+							<li>Description</li>
+							<li>Interests</li>
+							<li>Designation</li>
+							<li>Profile Picture</li>
+							<li>Email</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Social/Custom Login</h2>
+						<p>The application supports login from a Google or Facebook account. It also provides an option for custom login</p>
+					</section>
+					<section>
+						<h2>Add Posts/Sesssions</h2>
+						<p><b>Posts</b> - a user can add a post in the form of web link, or a photo with title-description-link or without link, or only text data</p>
+						<p><b>Sessions</b> - only an authorized user can add a session</b></p>
+					</section>
+					<section>
+						<h2>Extra perks</h2>
+						<p>Whole app can be used without internet</p>
+					</section>
+				</section>
+				<section>
+					<h2>Application of Project</h2>
+					<ul>
+						<li>The project mainly targets all tech enthsiasts as well as college students on various technologies</li>
+						<li>Envisioned as a platform for people who promote open source technologies</li>
+						<li>Better insight into upcoming open source technologies, and various oppurtunities to participate and learn such technologies </li>
+					</ul>
+				</section>
+				<section>
+						<h2>Implementation</h2>
+	
+						<p>Scenarios</p>
+						<ol>
+							<li><b>User not logged in</b> - Basic functionality</li>
+							<li><b>User in logged in</b> - <a href="img/flowchart.PNG">FLOWCHART</a></li>
+						</ul>
+				</section>
+				<section>
+					<section>
+						<p>Trending Feed</p>
+						<img src="img/trending.png" alt="trending" height="600" width="350">
+					</section>
+					<section>
+						<p>Session Feed</p>
+						<img src="img/session.png" alt="session" height="600" width="350">
+					</section>
+					<section>
+						<p>Profile</p>
+						<img src="img/profile.png" alt="profile" height="600" width="350">
+					</section>
+					<section>
+						<p>Event</p>
+						<img src="img/event.png" alt="event" height="600" width="350">
+					</section>
+					<section>
+						<p>Login</p>
+						<img src="img/login.png" alt="login" height="600" width="350">
+					</section>
+					<section>
+						<p>Registeration</p>
+						<img src="img/register.png" alt="register" height="600" width="350">
+					</section>
+				</section>
+				<section>
+					<h2>Results</h2>
+					<p>The application has been successfully published on playstore with a pre-launch conducted at SVCE on 27 Oct 16</p>
+				</section>
+				<section>
+					<h2>Conclusion</h2>
+					<li>The project in support of backing up it's own objective is an open source project</li>
+					<li>The source code is available on github and the server api's are under the process of getting documented and will be published on github soon</li>
+					<br>
+					<p><a href="https://www.github.com/asifali22/Focus-Android-App" target="blank">Source code</a></p>
+					<p><a href="https://play.google.com/store/apps/details?id=com.hybrid.freeopensourceusers" target="blank">Play store</a></p>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
